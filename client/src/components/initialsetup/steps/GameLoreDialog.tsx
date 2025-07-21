@@ -21,7 +21,7 @@ export function GameLoreDialog() {
 
   return (
     <div className="game-lore-dialog cursor-pointer" onClick={handleNextLore}>
-      <h2 className="text-2xl font-bold mb-4">리그의 부활</h2>
+      <h2 className="text-2xl font-bold mb-4">에테리아</h2>
       <p className={loreLines[currentLineIndex].className}>
         {loreLines[currentLineIndex].text}
       </p>
