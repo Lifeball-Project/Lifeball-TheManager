@@ -1,4 +1,4 @@
-import { LandingClient } from "@/components/landing/LandingClient";
+import { LandingClient } from "@/features/landing/LandingClient";
 
 export default function LandingPage() {
   return <LandingClient />

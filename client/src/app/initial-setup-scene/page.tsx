@@ -1,6 +1,6 @@
 'use client';
 
-import { SetupStepManager } from "@/components/initialsetup/SetupStepManager";
+import { SetupStepManager } from "@/features/initialsetup/SetupStepManager";
 
 export default function InitialSetupPage() {
   return <SetupStepManager />;
