@@ -20,12 +20,19 @@ export function GameLoreDialog() {
   };
 
   return (
-    <div className="game-lore-dialog cursor-pointer" onClick={handleNextLore}>
-      <h2 className="text-2xl font-bold mb-4">에테리아</h2>
-      <p className={loreLines[currentLineIndex].className}>
-        {loreLines[currentLineIndex].text}
-      </p>
-      <p className="mt-4 text-sm text-gray-400">(화면을 클릭하면 계속됩니다)</p>
+    <div
+      className="game-lore-dialog cursor-pointer bg-cover bg-center"
+      onClick={handleNextLore}
+    >
+      <div className="bg-black bg-opacity-60 text-white p-8 w-full max-w-xl mb-[30vh]"
+      style={{ backgroundImage: `url('/images/chat-background.jpg')` }}
+      >
+        <h2 className="text-2xl font-bold mb-4">에테리아</h2>
+        <p className={loreLines[currentLineIndex].className}>
+          {loreLines[currentLineIndex].text}
+        </p>
+        <p className="mt-4 text-sm text-gray-300">(화면을 클릭하면 계속됩니다)</p>
+      </div>
     </div>
   );
 }

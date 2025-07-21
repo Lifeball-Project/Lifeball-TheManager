@@ -1,5 +1,6 @@
 import { createPlayer } from "@/shared/utils/setup/createPlayer";
-import { Position, PlayerTag, Player } from '@/shared/types/player';
+import { Player, Position } from "@/shared/types/player";
+import { PlayerTag } from "@/shared/types/tag";
 
 export interface SetupPlayer {
   id: number;

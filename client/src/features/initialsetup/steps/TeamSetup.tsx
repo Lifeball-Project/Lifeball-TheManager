@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useTeamStore } from "@/store/useTeamStore";
 import { getRandomPlayerSelection } from "@/shared/utils/setup/setupList"; 
 import { PlayerCard } from "@/components/PlayerCard";
-import { BottomButtonGroup } from "@/components/BootomButtonGroups";
+import { BottomButtonGroup } from "@/components/BottomButtonGroups";
 
 export function TeamSetup() {
   const router = useRouter();
@@ -17,7 +17,7 @@ export function TeamSetup() {
     setTeamStore(team); // 팀 상태를 저장
     // DB에 팀 저장 로직 여기다가 만들기
     console.log("팀 설정 완료: ", team);
-
+    
     router.push("/game-scene");
   };
 

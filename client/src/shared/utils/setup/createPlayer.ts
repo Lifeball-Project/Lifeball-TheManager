@@ -1,4 +1,14 @@
-import { baseStats, statModifiersByRace, statModifiersByTag, Player, Position, Race, PlayerStats, PlayerTag } from '@/shared/types/player';
+import { baseStats, statModifiersByRace, PlayerStats } from '@/shared/types/stats';
+import { Player, Position, Race } from '@/shared/types/player';
+import { PlayerTag, statModifiersByTag } from '@/shared/types/tag';
+
+/**
+ * 플레이어 생성 함수
+ * @param id - 플레이
+ * @param race - 종족
+ * @param position - 포지션
+ * @param tags - 플레이어 태그 (선택적)
+ **/
 
 export function createPlayer(
   id: number,
