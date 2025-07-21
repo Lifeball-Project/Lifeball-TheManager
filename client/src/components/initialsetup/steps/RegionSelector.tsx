@@ -1,16 +1,15 @@
-import { useInitialSetupStore } from "@/store/setupStore";
+import { useSetupStore } from "@/store/setupStore";
+import { regions } from "@/shared/utils/setup/regions";
 
 export function RegionSelector() {
-  const setRegion = useInitialSetupStore((state) => state.setRegion);
-  const goToNextStep = useInitialSetupStore((state) => state.goToNextStep);
+  const setRegion = useSetupStore((state) => state.setRegion);
+  const goToNextStep = useSetupStore((state) => state.goToNextStep);
 
   const handleRegionClick = (region: string) => {
     setRegion(region);
     // 여기에서 선택한 지역 로직 추가 예를들면 db저장
     goToNextStep();
   };
-
-  const regions = ["서울", "인천", "대전", "부산", "광주", "대구"];
 
   return (
     <div>

@@ -1,5 +1,5 @@
 import { StartSceneContainer } from "@/components/start/StartSceneContainer"
 
-export default function StartScene() {
+export default function StartScenePage() {
   return <StartSceneContainer />
 }

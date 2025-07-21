@@ -9,7 +9,7 @@ export function PlayerNameForm() {
 
   const [input, setInput] = useState('');
 
-  const handleSubmit = () => {
+  const handleNameSubmit = () => {
     if (!input.trim()) return;
     setPlayerName(input);
     goToNextStep(); // 다음 단계로 이동
@@ -26,7 +26,7 @@ export function PlayerNameForm() {
         onChange={(e) => setInput(e.target.value)}
         required
       />
-      <button onClick={handleSubmit}>확인</button>
+      <button onClick={handleNameSubmit}>확인</button>
     </div>
   );
 }

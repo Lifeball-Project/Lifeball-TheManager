@@ -1,12 +1,17 @@
 'use client';
 import { useRouter } from "next/navigation";
+// import { useSetupStore } from "@/store/setupStore";
 
 export function TeamSetup() {
   const router = useRouter();
 
   const handleTeam = () => {
     // 팀 설정 로직을 여기에 추가합니다.
-    // 예를 들어, 선택한 팀 정보를 저장하거나 다음 단계로 이동하는 등의 작업을 수행할 수 있습니다.
+    
+    
+    // const setupData = useSetupStore.getState();
+    // 그리고 fetch 사용해서 zustand 스토어에 저장된 정보 db 저장
+
     console.log("팀 설정 완료");
     router.push("/game-scene"); // 다음 단계로 이동
   };
