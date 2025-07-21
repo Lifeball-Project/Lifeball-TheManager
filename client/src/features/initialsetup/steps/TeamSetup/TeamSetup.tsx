@@ -18,30 +18,67 @@ export function TeamSetup() {
     setTeam(newTeam);
   };
 
+  const renderPlayer = (position: string) => {
+    const player = team?.find(p => p.position === position);
+    if (!player) return null;
+
+    return (
+      <div key={player.id} className="border rounded-md p-3 w-40 text-center text-sm">
+        <p className="font-semibold">{player.position} ({player.race})</p>
+        <p className="text-xs text-gray-600">
+          {player.tags?.join(", ") || "태그 없음"}
+        </p>
+      </div>
+    );
+  };
+
   return (
     <div>
       <h2 className="text-xl font-semibold mb-4">라인업</h2>
 
-      <button onClick={handleRandomTeam} className="mr-4">랜덤 팀 생성</button>
-      <button onClick={handleTeam}>완료</button>
-
       {team && (
-        <div className="mt-6 space-y-2">
-          {team.map(player => (
-            <div
-              key={player.id}
-              className="border border-gray-300 rounded-md p-4"
-            >
-              <p className="font-semibold">{player.position} ({player.race})</p>
-              <p className="text-sm text-gray-600">
-                {player.tags && player.tags.length > 0
-                  ? player.tags.join(", ")
-                  : "태그 없음"}
-              </p>
-            </div>
-          ))}
+        <div className="mt-6 space-y-4">
+          <div className="grid grid-cols-3 justify-items-center">
+            {renderPlayer("좌익수")}
+            {renderPlayer("중견수")}
+            {renderPlayer("우익수")}
+          </div>
+
+          <div className="grid grid-cols-4 justify-items-center">
+            {renderPlayer("3루수")}
+            {renderPlayer("유격수")}
+            {renderPlayer("2루수")}
+            {renderPlayer("1루수")}
+          </div>
+
+          <div className="grid grid-cols-1 justify-items-center">
+            {renderPlayer("투수")}
+          </div>
+
+          <div className="grid grid-cols-1 justify-items-center">
+            {renderPlayer("포수")}
+          </div>
+
+          <div className="grid grid-cols-1 justify-items-center">
+            {renderPlayer("지명타자")}
+          </div>
         </div>
       )}
+
+      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 flex justify-center">
+        <button
+          onClick={handleRandomTeam}
+          className="mr-4 px-4 py-2 rounded border"
+        >
+          랜덤 팀 생성
+        </button>
+        <button
+          onClick={handleTeam}
+          className="px-4 py-2 rounded border"
+        >
+          완료
+        </button>
+      </div>
     </div>
   );
 }
