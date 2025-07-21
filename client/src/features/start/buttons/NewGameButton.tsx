@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { Button } from '../common/Button';
+import { Button } from '../../../components/Button';
 
 export const NewGameButton = () => {
   const router = useRouter();

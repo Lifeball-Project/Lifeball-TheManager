@@ -1,8 +1,8 @@
-import { useSetupStore } from "@/store/setupStore";
+import { useSetupStore } from "@/store/useSetupStore";
 import { PlayerNameForm } from "./steps/PlayerNameForm";
 import { GameLoreDialog } from "./steps/GameLoreDialog";
 import { RegionSelector } from "./steps/RegionSelector";
-import { TeamSetup } from "./steps/TeamSetup/TeamSetup";
+import { TeamSetup } from "./steps/TeamSetup";
 
 
 export function SetupStepManager() {

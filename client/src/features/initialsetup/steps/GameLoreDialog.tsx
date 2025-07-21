@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useSetupStore } from "@/store/setupStore";
+import { useSetupStore } from "@/store/useSetupStore";
 import { loreLines } from "@/shared/utils/setup/loreLines";
 
 export function GameLoreDialog() {

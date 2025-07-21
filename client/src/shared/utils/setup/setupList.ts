@@ -1,4 +1,5 @@
-import { Position, PlayerTag } from '@/shared/types/player';
+import { createPlayer } from "@/shared/utils/setup/createPlayer";
+import { Position, PlayerTag, Player } from '@/shared/types/player';
 
 export interface SetupPlayer {
   id: number;
@@ -21,16 +22,14 @@ export function getRandomTags(maxCount: number = 2): PlayerTag[] {
 }
 
 // position 10종 모두 포함, race는 "휴먼", 태그 0~2개 랜덤
-export function getRandomPlayerSelection(): SetupPlayer[] {
-  
+export function getRandomPlayerSelection(): Player[] {
   const positions: Position[] = [
     "투수", "포수", "1루수", "2루수", "3루수",
     "유격수", "좌익수", "중견수", "우익수", "지명타자"
   ];
-  return positions.map((pos, idx) => ({
-    id: idx + 1,
-    position: pos,
-    race: "휴먼",
-    tags: getRandomTags(),
-  }));
+
+  return positions.map((pos, idx) => {
+    const tags = getRandomTags();
+    return createPlayer(idx + 1, "휴먼", pos, tags);
+  });
 }

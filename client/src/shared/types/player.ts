@@ -16,7 +16,7 @@ export interface Player {
   id: number;
   race: Race;
   position: Position;
-  stats: PlayerStats;
+  stats?: PlayerStats;
   tags?: PlayerTag[];
 }
 

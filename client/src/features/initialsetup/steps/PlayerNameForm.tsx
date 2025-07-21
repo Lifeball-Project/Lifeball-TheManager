@@ -1,6 +1,6 @@
 'use client';
 
-import { useSetupStore } from '@/store/setupStore';
+import { useSetupStore } from '@/store/useSetupStore';
 import { useState } from 'react';
 
 export function PlayerNameForm() {

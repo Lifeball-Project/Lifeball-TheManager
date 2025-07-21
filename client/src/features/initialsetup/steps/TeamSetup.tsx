@@ -2,14 +2,22 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { getRandomPlayerSelection } from "@/shared/utils/setup/setupList"; // 경로는 실제 위치에 맞게 조정
+import { useTeamStore } from "@/store/useTeamStore";
+import { getRandomPlayerSelection } from "@/shared/utils/setup/setupList"; 
+import { PlayerCard } from "@/components/PlayerCard";
+import { BottomButtonGroup } from "@/components/BootomButtonGroups";
 
 export function TeamSetup() {
   const router = useRouter();
+  const setTeamStore = useTeamStore((state) => state.setTeam);
   const [team, setTeam] = useState<ReturnType<typeof getRandomPlayerSelection> | null>(null);
 
   const handleTeam = () => {
-    console.log("팀 설정 완료");
+    if (!team) return;
+    setTeamStore(team); // 팀 상태를 저장
+    // DB에 팀 저장 로직 여기다가 만들기
+    console.log("팀 설정 완료: ", team);
+
     router.push("/game-scene");
   };
 
@@ -23,18 +31,19 @@ export function TeamSetup() {
     if (!player) return null;
 
     return (
-      <div key={player.id} className="border rounded-md p-3 w-40 text-center text-sm">
-        <p className="font-semibold">{player.position} ({player.race})</p>
-        <p className="text-xs text-gray-600">
-          {player.tags?.join(", ") || "태그 없음"}
-        </p>
-      </div>
+      <PlayerCard
+        key={player.id}
+        id={player.id}
+        position={player.position}
+        race={player.race}
+        tags={player.tags}
+      />
     );
   };
 
   return (
     <div>
-      <h2 className="text-xl font-semibold mb-4">라인업</h2>
+      <p className="text-2xl font-bold mb-4 text-center">라인업</p>
 
       {team && (
         <div className="mt-6 space-y-4">
@@ -65,20 +74,10 @@ export function TeamSetup() {
         </div>
       )}
 
-      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 flex justify-center">
-        <button
-          onClick={handleRandomTeam}
-          className="mr-4 px-4 py-2 rounded border"
-        >
-          랜덤 팀 생성
-        </button>
-        <button
-          onClick={handleTeam}
-          className="px-4 py-2 rounded border"
-        >
-          완료
-        </button>
-      </div>
+      <BottomButtonGroup
+        onRandom={handleRandomTeam}
+        onConfirm={handleTeam}
+      />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useSetupStore } from "@/store/setupStore";
+import { useSetupStore } from "@/store/useSetupStore";
 import { regions } from "@/shared/utils/setup/regions";
 
 export function RegionSelector() {
