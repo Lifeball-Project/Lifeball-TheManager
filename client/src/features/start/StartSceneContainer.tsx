@@ -6,8 +6,8 @@ import { ExitGameButton } from "./buttons/ExitGameButton";
 export const StartSceneContainer = () => {
   return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="start-scene-container border border-black rounded w-[600px] h-[450px] flex flex-col gap-4 items-center justify-center">
-          <h1 className="text-xl font-bold mb-4">야구 게임</h1>
+        <div className="start-scene-container border border-black bg-white rounded w-[600px] h-[500px] flex flex-col gap-10 items-center justify-center">
+          <h1 className="text-2xl font-bold mb-4">Lifeball: The Manager</h1>
           <NewGameButton />
           <LoadGameButton />
           <SettingsButton />
