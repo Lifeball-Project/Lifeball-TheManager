@@ -21,17 +21,15 @@ export function GameLoreDialog() {
 
   return (
     <div
-      className="game-lore-dialog cursor-pointer bg-cover bg-center"
+      className="game-lore-dialog w-screen h-screen bg-cover bg-center flex items-center justify-center mb-[20vh]"
       onClick={handleNextLore}
     >
-      <div className="bg-black bg-opacity-60 text-white p-8 w-full max-w-xl mb-[30vh]"
-      style={{ backgroundImage: `url('/images/chat-background.jpg')` }}
-      >
-        <h2 className="text-2xl font-bold mb-4">에테리아</h2>
+      <div className="bg-transparent text-black text-center p-8 w-[800px] h-[300px] mb-12 rounded-md flex flex-col justify-center">
+        <h2 className="text-2xl font-bold mb-4 text-center">에테리아</h2>
         <p className={loreLines[currentLineIndex].className}>
           {loreLines[currentLineIndex].text}
         </p>
-        <p className="mt-4 text-sm text-gray-300">(화면을 클릭하면 계속됩니다)</p>
+        <p className="mt-4 text-sm text-gray-600">(화면을 클릭하면 계속됩니다)</p>
       </div>
     </div>
   );

@@ -1,3 +1,8 @@
 export default function GameScenePage() {
-  return <div>Game Scene</div>;
+  return (
+    <div>
+      <h1>Game Scene</h1>
+      <p>This is the game scene page.</p>
+    </div>
+  );
 }

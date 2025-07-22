@@ -1,5 +1,6 @@
+import { BackgroundWrapper } from "@/components/BackgroundWrapper.tsx";
 import { LandingClient } from "@/features/landing/LandingClient";
 
 export default function LandingPage() {
-  return <LandingClient />
+  return <BackgroundWrapper><LandingClient /></BackgroundWrapper>
 }

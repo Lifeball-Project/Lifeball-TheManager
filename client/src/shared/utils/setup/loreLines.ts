@@ -16,3 +16,4 @@ export const loreLines = [
     className: "font-semibold text-lg mt-4",
   },
 ];
+
