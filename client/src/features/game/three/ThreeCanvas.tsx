@@ -50,6 +50,15 @@ export function ThreeCanvas() {
     playerRef.position.set(0, 1, 0); // slightly above tile
     scene.add(playerRef);
 
+    // 건물(간단한 박스) 추가
+    const building = new THREE.Mesh(
+      new THREE.BoxGeometry(4, 6, 4),
+      new THREE.MeshStandardMaterial({ color: 0x888888 })
+    );
+    building.position.set(5, 3, 5); // 바닥 위에 떠 있게 (높이 6 → 중심은 y=3)
+    scene.add(building);
+
+
     // 키보드 입력 처리
     const pressedKeys = new Set<string>();
 
