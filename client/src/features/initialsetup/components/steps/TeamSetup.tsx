@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useTeamStore } from "@/store/useTeamStore";
-import { getRandomPlayerSelection } from "@/shared/utils/setup/setupList"; 
+import { getRandomPlayerSelection } from "@/features/initialsetup/utils/setupList"; 
 import { PlayerCard } from "@/components/PlayerCard";
 import { BottomButtonGroup } from "@/components/BottomButtonGroups";
 

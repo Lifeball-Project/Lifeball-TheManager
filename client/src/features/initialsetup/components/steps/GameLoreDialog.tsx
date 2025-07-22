@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useSetupStore } from "@/store/useSetupStore";
-import { loreLines } from "@/shared/utils/setup/loreLines";
+import { loreLines } from "@/features/initialsetup/constants/loreLines";
 
 export function GameLoreDialog() {
   // 스토어에서 다음 단계로 이동하는 함수 가져오기

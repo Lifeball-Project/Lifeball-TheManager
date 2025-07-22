@@ -1,4 +1,4 @@
-import { createPlayer } from "@/shared/utils/setup/createPlayer";
+import { createPlayer } from "@/features/initialsetup/utils/createPlayer";
 import { Player, Position } from "@/shared/types/player";
 import { PlayerTag } from "@/shared/types/tag";
 

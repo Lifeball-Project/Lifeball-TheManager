@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSetupStore } from "@/store/useSetupStore";
-import { regions } from "@/shared/utils/setup/regions";
+import { regions } from "@/features/initialsetup/constants/regions";
 
 export function RegionSelector() {
   const setRegion = useSetupStore((state) => state.setRegion);

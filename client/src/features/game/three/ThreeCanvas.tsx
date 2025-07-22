@@ -2,11 +2,15 @@
 
 import { useRef, useRef as useReactRef, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { createCharacter } from '../characters/Characters';
+import { handleMovement } from '../characters/movements';
+
 import * as THREE from 'three';
 
 export function ThreeCanvas() {
   const mountRef = useRef<HTMLDivElement>(null);
   const hasCollidedRef = useReactRef(false);
+  const playerRef = createCharacter();
 
   const router = useRouter();
 
@@ -28,6 +32,9 @@ export function ThreeCanvas() {
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
     scene.add(ambientLight);
 
+    // 캐릭터 추가
+    scene.add(playerRef);
+
     // 타일 바닥 생성
     const tileSize = 2;
     const half = 8;
@@ -46,12 +53,7 @@ export function ThreeCanvas() {
       }
     }
 
-    // 플레이어 캐릭터(간단한 박스) 추가
-    const playerRef = new THREE.Mesh(
-      new THREE.BoxGeometry(1.5, 2, 1.5),
-      new THREE.MeshStandardMaterial({ color: 0x4444ff })
-    );
-
+  
     // 충돌 감지를 위한 bounding box 계산
     const building = new THREE.Mesh(
       new THREE.BoxGeometry(4, 6, 4),
@@ -96,21 +98,8 @@ export function ThreeCanvas() {
     const speed = 0.1;
     // 렌더링 루프
     const animate = () => {
-      // 이동로직, 맵 경계(-16~16)에서 못 나가게 제한
-      const nextX = playerRef.position.x;
-      const nextZ = playerRef.position.z;
-      let newX = nextX;
-      let newZ = nextZ;
-
-      if (pressedKeys.has('ㅈ') || pressedKeys.has('w')) newZ = Math.max(nextZ - speed, -16);
-      if (pressedKeys.has('ㄴ') || pressedKeys.has('s')) newZ = Math.min(nextZ + speed, 16);
-      if (pressedKeys.has('ㅁ') || pressedKeys.has('a')) newX = Math.max(nextX - speed, -16);
-      if (pressedKeys.has('ㅇ') || pressedKeys.has('d')) newX = Math.min(nextX + speed, 16);
-
-      if (canMoveTo(newX, newZ)) {
-        playerRef.position.x = newX;
-        playerRef.position.z = newZ;
-      }
+      // 이동 처리
+      handleMovement(playerRef, pressedKeys, speed, canMoveTo);
 
       camera.position.set(
         playerRef.position.x,
@@ -131,6 +120,7 @@ export function ThreeCanvas() {
       mount.removeChild(renderer.domElement);
     };
   }, []);
+
 
   return <div ref={mountRef} style={{ width: '100vw', height: '100vh' }} />;
 }
