@@ -50,7 +50,7 @@ export function ThreeCanvas() {
     playerRef.position.set(0, 1, 0); // slightly above tile
     scene.add(playerRef);
 
-    // --- Keyboard movement logic ---
+    // 키보드 입력 처리
     const pressedKeys = new Set<string>();
 
     const handleKeyDown = (e: KeyboardEvent) => pressedKeys.add(e.key.toLowerCase());
@@ -60,14 +60,21 @@ export function ThreeCanvas() {
     window.addEventListener('keyup', handleKeyUp);
 
     const speed = 0.1;
-
     // 렌더링 루프
     const animate = () => {
-      // Movement logic
+      // 이동로직
       if (pressedKeys.has('ㅈ') || pressedKeys.has('w')) playerRef.position.z -= speed;
       if (pressedKeys.has('ㄴ') || pressedKeys.has('s')) playerRef.position.z += speed;
       if (pressedKeys.has('ㅁ') || pressedKeys.has('a')) playerRef.position.x -= speed;
       if (pressedKeys.has('ㅇ') || pressedKeys.has('d')) playerRef.position.x += speed;
+
+      camera.position.set(
+        playerRef.position.x,
+        playerRef.position.y + 25,
+        playerRef.position.z + 25
+      );
+      camera.lookAt(playerRef.position);
+
       requestAnimationFrame(animate);
       renderer.render(scene, camera);
     };
