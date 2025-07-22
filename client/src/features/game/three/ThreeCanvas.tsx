@@ -42,8 +42,32 @@ export function ThreeCanvas() {
       }
     }
 
+    // 플레이어 캐릭터(간단한 박스) 추가
+    const playerRef = new THREE.Mesh(
+      new THREE.BoxGeometry(1.5, 2, 1.5),
+      new THREE.MeshStandardMaterial({ color: 0x4444ff })
+    );
+    playerRef.position.set(0, 1, 0); // slightly above tile
+    scene.add(playerRef);
+
+    // --- Keyboard movement logic ---
+    const pressedKeys = new Set<string>();
+
+    const handleKeyDown = (e: KeyboardEvent) => pressedKeys.add(e.key.toLowerCase());
+    const handleKeyUp = (e: KeyboardEvent) => pressedKeys.delete(e.key.toLowerCase());
+
+    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('keyup', handleKeyUp);
+
+    const speed = 0.1;
+
     // 렌더링 루프
     const animate = () => {
+      // Movement logic
+      if (pressedKeys.has('ㅈ') || pressedKeys.has('w')) playerRef.position.z -= speed;
+      if (pressedKeys.has('ㄴ') || pressedKeys.has('s')) playerRef.position.z += speed;
+      if (pressedKeys.has('ㅁ') || pressedKeys.has('a')) playerRef.position.x -= speed;
+      if (pressedKeys.has('ㅇ') || pressedKeys.has('d')) playerRef.position.x += speed;
       requestAnimationFrame(animate);
       renderer.render(scene, camera);
     };
@@ -51,6 +75,8 @@ export function ThreeCanvas() {
 
     // 정리
     return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('keyup', handleKeyUp);
       mount.removeChild(renderer.domElement);
     };
   }, []);
