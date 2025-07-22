@@ -24,12 +24,14 @@ export function GameLoreDialog() {
       className="game-lore-dialog w-screen h-screen bg-cover bg-center flex items-center justify-center mb-[20vh]"
       onClick={handleNextLore}
     >
-      <div className="bg-transparent text-black text-center p-8 w-[800px] h-[300px] mb-12 rounded-md flex flex-col justify-center">
-        <h2 className="text-2xl font-bold mb-4 text-center">에테리아</h2>
-        <p className={loreLines[currentLineIndex].className}>
-          {loreLines[currentLineIndex].text}
-        </p>
-        <p className="mt-4 text-sm text-gray-600">(화면을 클릭하면 계속됩니다)</p>
+      <div className="bg-transparent text-black text-center p-8 w-[1000px] h-[300px] mb-12 rounded-md flex flex-col justify-start pt-2">
+        <h2 className="text-4xl font-bold mt-[-16px] mb-2 text-center">에테리아</h2>
+        <div className="mt-20">
+          <p className={loreLines[currentLineIndex].className + " text-lg font-semibold"}>
+            {loreLines[currentLineIndex].text}
+          </p>
+          <p className="mt-4 text-sm text-gray-600">(화면을 클릭하면 계속됩니다)</p>
+        </div>
       </div>
     </div>
   );

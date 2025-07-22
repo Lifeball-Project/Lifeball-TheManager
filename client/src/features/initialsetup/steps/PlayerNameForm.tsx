@@ -16,17 +16,25 @@ export function PlayerNameForm() {
   };
 
   return (
-    <div>
-      <label htmlFor="playerName">Enter Player Name:</label>
-      <input
-        type="text"
-        id="playerName"
-        name="playerName"
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
-        required
-      />
-      <button onClick={handleNameSubmit}>확인</button>
+    <div className="flex items-center justify-center min-h-screen">
+      <div className="flex flex-col gap-4 items-center">
+        <label htmlFor="playerName" className="text-lg font-semibold">Enter Player Name:</label>
+        <input
+          type="text"
+          id="playerName"
+          name="playerName"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          required
+          className="border rounded px-4 py-2"
+        />
+        <button
+          onClick={handleNameSubmit}
+          className="px-4 py-2 border border-black rounded"
+        >
+          Next
+        </button>
+      </div>
     </div>
   );
 }
