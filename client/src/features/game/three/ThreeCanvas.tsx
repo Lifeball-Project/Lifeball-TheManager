@@ -1,10 +1,14 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useRef, useRef as useReactRef, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import * as THREE from 'three';
 
 export function ThreeCanvas() {
   const mountRef = useRef<HTMLDivElement>(null);
+  const hasCollidedRef = useReactRef(false);
+
+  const router = useRouter();
 
   useEffect(() => {
     const mount = mountRef.current!;
@@ -47,16 +51,37 @@ export function ThreeCanvas() {
       new THREE.BoxGeometry(1.5, 2, 1.5),
       new THREE.MeshStandardMaterial({ color: 0x4444ff })
     );
-    playerRef.position.set(0, 1, 0); // slightly above tile
-    scene.add(playerRef);
 
-    // 건물(간단한 박스) 추가
+    // 충돌 감지를 위한 bounding box 계산
     const building = new THREE.Mesh(
       new THREE.BoxGeometry(4, 6, 4),
       new THREE.MeshStandardMaterial({ color: 0x888888 })
     );
     building.position.set(5, 3, 5); // 바닥 위에 떠 있게 (높이 6 → 중심은 y=3)
     scene.add(building);
+
+    const buildingBox = new THREE.Box3().setFromObject(building);
+    const playerBox = new THREE.Box3();
+
+
+    // 이동 가능 여부 확인 함수
+    const canMoveTo = (x: number, z: number) => {
+      playerBox.setFromObject(playerRef);
+      const clone = playerBox.clone();
+      const delta = new THREE.Vector3(x - playerRef.position.x, 0, z - playerRef.position.z);
+      clone.translate(delta);
+      if (clone.intersectsBox(buildingBox)) {
+        if (!hasCollidedRef.current) {
+          hasCollidedRef.current = true;
+          router.push('/game-scene/scene/home');
+        }
+        return false;
+      }
+      return true;
+    };
+
+    playerRef.position.set(0, 1, 0); // slightly above tile
+    scene.add(playerRef);
 
 
     // 키보드 입력 처리
@@ -74,11 +99,18 @@ export function ThreeCanvas() {
       // 이동로직, 맵 경계(-16~16)에서 못 나가게 제한
       const nextX = playerRef.position.x;
       const nextZ = playerRef.position.z;
+      let newX = nextX;
+      let newZ = nextZ;
 
-      if (pressedKeys.has('ㅈ') || pressedKeys.has('w')) playerRef.position.z = Math.max(nextZ - speed, -16);
-      if (pressedKeys.has('ㄴ') || pressedKeys.has('s')) playerRef.position.z = Math.min(nextZ + speed, 16);
-      if (pressedKeys.has('ㅁ') || pressedKeys.has('a')) playerRef.position.x = Math.max(nextX - speed, -16);
-      if (pressedKeys.has('ㅇ') || pressedKeys.has('d')) playerRef.position.x = Math.min(nextX + speed, 16);
+      if (pressedKeys.has('ㅈ') || pressedKeys.has('w')) newZ = Math.max(nextZ - speed, -16);
+      if (pressedKeys.has('ㄴ') || pressedKeys.has('s')) newZ = Math.min(nextZ + speed, 16);
+      if (pressedKeys.has('ㅁ') || pressedKeys.has('a')) newX = Math.max(nextX - speed, -16);
+      if (pressedKeys.has('ㅇ') || pressedKeys.has('d')) newX = Math.min(nextX + speed, 16);
+
+      if (canMoveTo(newX, newZ)) {
+        playerRef.position.x = newX;
+        playerRef.position.z = newZ;
+      }
 
       camera.position.set(
         playerRef.position.x,
