@@ -1,10 +1,5 @@
-'use client'
+import { ThreeCanvas } from "@/features/game/three/ThreeCanvas";
 
 export default function HomeScenePage() {
-  return (
-    <div>
-      <h1>Home Scene</h1>
-      <p>This is the home scene page.</p>
-    </div>
-  );
+  return <ThreeCanvas  />;
 }
