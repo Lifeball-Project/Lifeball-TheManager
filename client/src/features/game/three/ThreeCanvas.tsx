@@ -62,11 +62,14 @@ export function ThreeCanvas() {
     const speed = 0.1;
     // 렌더링 루프
     const animate = () => {
-      // 이동로직
-      if (pressedKeys.has('ㅈ') || pressedKeys.has('w')) playerRef.position.z -= speed;
-      if (pressedKeys.has('ㄴ') || pressedKeys.has('s')) playerRef.position.z += speed;
-      if (pressedKeys.has('ㅁ') || pressedKeys.has('a')) playerRef.position.x -= speed;
-      if (pressedKeys.has('ㅇ') || pressedKeys.has('d')) playerRef.position.x += speed;
+      // 이동로직, 맵 경계(-16~16)에서 못 나가게 제한
+      const nextX = playerRef.position.x;
+      const nextZ = playerRef.position.z;
+
+      if (pressedKeys.has('ㅈ') || pressedKeys.has('w')) playerRef.position.z = Math.max(nextZ - speed, -16);
+      if (pressedKeys.has('ㄴ') || pressedKeys.has('s')) playerRef.position.z = Math.min(nextZ + speed, 16);
+      if (pressedKeys.has('ㅁ') || pressedKeys.has('a')) playerRef.position.x = Math.max(nextX - speed, -16);
+      if (pressedKeys.has('ㅇ') || pressedKeys.has('d')) playerRef.position.x = Math.min(nextX + speed, 16);
 
       camera.position.set(
         playerRef.position.x,
