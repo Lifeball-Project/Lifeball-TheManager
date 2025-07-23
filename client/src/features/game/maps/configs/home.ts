@@ -1,6 +1,6 @@
-import { Map } from "../types/map";
+import { MapConfig } from "../types/mapConfig";
 
-export const homeConfig: Map = {
+export const homeConfig: MapConfig = {
   name: 'home',
   tileSize: 2,
   tileHalf: 8,
