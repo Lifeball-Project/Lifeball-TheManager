@@ -1,1 +1,1 @@
-export const DEFAULT_SPEED = 0.1;
+export const DEFAULT_SPEED = 1;
