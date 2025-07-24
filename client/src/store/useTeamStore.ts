@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { Player } from '@/shared/types/player';
+import { Player } from '@/types/player/player';
 
 interface TeamState {
   team: Player[] | null;

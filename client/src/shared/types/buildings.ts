@@ -1,1 +1,0 @@
-export type BuildingType = 'stadium' | 'home' | 'hospital' | 'shop';

@@ -1,6 +1,5 @@
 import { create } from 'zustand';
-
-type Scene = 'start' | 'setup' | 'game';
+import { Scene } from '@/types/scene/scene-types';
 
 interface SceneStore {
   currentScene: Scene;

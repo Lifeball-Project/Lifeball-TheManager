@@ -1,10 +1,9 @@
 import { create } from 'zustand';
-
-type SetupStep = 'playerName' | 'lore' | 'region' | 'team';
+import { Step } from '@/types/step/step-types';
 
 interface SetupState {
   playerName: string;
-  currentStep: SetupStep;
+  currentStep: Step;
   setPlayerName: (name: string) => void;
   setRegion: (region: string) => void;
   goToNextStep: () => void;
@@ -19,7 +18,7 @@ export const useSetupStore = create<SetupState>((set, get) => ({
     console.log(`Selected region: ${region}`);
   },
   goToNextStep: () => {
-    const steps: SetupStep[] = ['playerName', 'lore', 'region', 'team'];
+    const steps: Step[] = ['playerName', 'lore', 'region', 'team'];
     const currentIndex = steps.indexOf(get().currentStep);
     const nextStep = steps[currentIndex + 1] || 'team';
     set({ currentStep: nextStep });
