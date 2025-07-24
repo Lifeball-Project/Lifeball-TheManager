@@ -16,27 +16,9 @@ import { DEFAULT_SPEED } from '../characters/DEFAULT_SPEED';
 import { TILE_SIZE, TILE_COLOR, TILE_HALF } from '../maps/configs/defaultTileConfig';
 import { createMapTiles } from '../tiles/createMapTiles';
 
-interface MapBoundary {
-  minX: number;
-  maxX: number;
-  minZ: number;
-  maxZ: number;
-}
 
 
-interface ThreeCanvasProps {
-  mapPath: string;
-  tilesetPath: string;
-  tileSize?: number; //
-  mapBoundary: MapBoundary; // 맵 경계 설정
-}
-
-export function ThreeCanvas({
-  mapPath,
-  tilesetPath,
-  tileSize = 16, // 기본값 설정
-  mapBoundary
- }: ThreeCanvasProps) {
+export function ThreeCanvas() {
   const mountRef = useRef<HTMLDivElement>(null);
 
   const hasCollidedRef = useRef(false);
@@ -48,14 +30,13 @@ export function ThreeCanvas({
   useEffect(() => {
     const mount = mountRef.current!;
     
-    const { scene, camera, renderer } = setupThreeScene(mount);
     
     // 조명
-    addDefaultLighting(scene);
+    // addDefaultLighting(scene);
 
-    createMapTiles(mapPath, tilesetPath, tileSize).then((tiles) => {
-      tiles.forEach((tile) => { scene.add(tile) });
-    })
+    // createMapTiles(mapPath, tilesetPath, tileSize).then((tiles) => {
+    //   tiles.forEach((tile) => { scene.add(tile) });
+    // })
 
 
 
@@ -67,7 +48,7 @@ export function ThreeCanvas({
     // tiles.forEach((tile) => scene.add(tile));
     
 
-    scene.add(playerRef);
+    // scene.add(playerRef);
     // scene.add(building);
 
     const buildingBox = new THREE.Box3().setFromObject(building);
@@ -87,19 +68,19 @@ export function ThreeCanvas({
       });
 
     const animate = () => {
-      // 캐릭터 이동 처리
-      handleMovement(playerRef, pressedKeys, DEFAULT_SPEED, canMoveTo, mapBoundary);
-      followPlayer(camera, playerRef);
+      // // 캐릭터 이동 처리
+      // handleMovement(playerRef, pressedKeys, DEFAULT_SPEED, canMoveTo, mapBoundary);
+      // followPlayer(camera, playerRef);
 
-      requestAnimationFrame(animate);
-      renderer.render(scene, camera);
+      // requestAnimationFrame(animate);
+      // renderer.render(scene, camera);
     };
     animate();
 
     return () => {
-      mount.removeChild(renderer.domElement);
+      // mount.removeChild(renderer.domElement);
     };
-  }, [mapPath, tilesetPath, tileSize]);
+  }, []);
 
   return <div ref={mountRef} style={{ width: '100vw', height: '100vh' }} />;
 }

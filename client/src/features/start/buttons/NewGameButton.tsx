@@ -1,14 +1,15 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import { Button } from '../../../components/Button';
+import { useSceneStore } from '@/store/useSceneStore';
 
 export const NewGameButton = () => {
-  const router = useRouter();
-
-  // 새 게임 시작 함수
+  const setScene = useSceneStore((s) => s.setScene);
+  
   const handleNewGame = () => {
-    router.push('/initial-setup-scene'); // 초기 설정 페이지로 이동
+    console.log('새 게임 버튼 클릭');
+    // 새 게임 시작 로직
+    setScene('setup'); // 예시로 setup 씬으로 이동
   };
 
   return (
