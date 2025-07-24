@@ -1,15 +1,16 @@
 'use client';
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { useTeamStore } from "@/store/useTeamStore";
+import { useSceneStore } from "@/store/useSceneStore";
 import { getRandomPlayerSelection } from "@/features/initialsetup/utils/setupList"; 
 import { PlayerCard } from "@/components/PlayerCard";
 import { BottomButtonGroup } from "@/components/BottomButtonGroups";
 
+
 export function TeamSetup() {
-  const router = useRouter();
   const setTeamStore = useTeamStore((state) => state.setTeam);
+  const setScene = useSceneStore((state) => state.setScene);
   const [team, setTeam] = useState<ReturnType<typeof getRandomPlayerSelection> | null>(null);
 
   const handleTeam = () => {
@@ -17,8 +18,7 @@ export function TeamSetup() {
     setTeamStore(team); // 팀 상태를 저장
     // DB에 팀 저장 로직 여기다가 만들기
     console.log("팀 설정 완료: ", team);
-    
-    router.push("/game-scene");
+    setScene('game'); // 게임 씬으로 이동
   };
 
   const handleRandomTeam = () => {
