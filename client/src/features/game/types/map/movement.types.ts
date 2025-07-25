@@ -1,4 +1,3 @@
-
 import * as THREE from 'three';
 import { CanMoveToFn, MapBoundary } from './map.types';
 

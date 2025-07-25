@@ -1,25 +1,32 @@
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
+import { useKeyboardStore } from '@/store/useKeyboardStore';
 
-export function useKeyboardInput(): Set<string> {
-  const pressedKeysRef = useRef<Set<string>>(new Set());
+export function useKeyboardInput(): void {
+  const addKey = useKeyboardStore((state) => state.addKey);
+  const removeKey = useKeyboardStore((state) => state.removeKey);
+  const resetKeys = useKeyboardStore((state) => state.resetKeys);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      pressedKeysRef.current.add(e.key.toLowerCase());
+      addKey(e.key.toLowerCase());
     };
 
     const handleKeyUp = (e: KeyboardEvent) => {
-      pressedKeysRef.current.delete(e.key.toLowerCase());
+      removeKey(e.key.toLowerCase());
+    };
+
+    const handleBlur = () => {
+      resetKeys(); 
     };
 
     window.addEventListener('keydown', handleKeyDown);
     window.addEventListener('keyup', handleKeyUp);
+    window.addEventListener('blur', handleBlur); 
 
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
       window.removeEventListener('keyup', handleKeyUp);
+      window.removeEventListener('blur', handleBlur);
     };
-  }, []);
-
-  return pressedKeysRef.current;
+  }, [addKey, removeKey, resetKeys]);
 }

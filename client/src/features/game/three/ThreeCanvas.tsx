@@ -1,19 +1,22 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { use, useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { setupThreeScene } from './setupScene'; // 경로를 실제 위치에 맞게 조정
 import { createTileGrid } from '../maps/helpers/createTiles';
 import { createCharacter } from '../characters/createCharacter';
 import { handleMovement } from '../characters/handleMovement';
-import { useKeyboardInput } from '../hooks/useKeyboardInput';
+import { useKeyboardStore } from '@/store/useKeyboardStore';
 import { defaultSpeed } from '../characters/defaultSpeed';
+import { useKeyboardInput } from '../hooks/useKeyboardInput';
+import { createBuilding } from '../buildings/helpers/createBuilding';
 
 export function ThreeCanvas() {
   const mountRef = useRef<HTMLDivElement>(null);
   const characterRef = useRef<THREE.Mesh | null>(null);
-  const pressedKeys = useKeyboardInput();
-
+  const getPressedKeys = useKeyboardStore.getState;
+  useKeyboardInput();
+  
   useEffect(() => {
     const mount = mountRef.current!;
     const center = new THREE.Vector3(0, 0, 0);
@@ -29,21 +32,34 @@ export function ThreeCanvas() {
 
     // 플레이어 캐릭터 생성
     const character = createCharacter();
-    characterRef.current = character;
     scene.add(character);
-    // 캐릭터 애니메이션 로직 추가
-    // (pressedKeys, defaultSpeed를 사용)
+    characterRef.current = character;
+    console.log('[createCharacter] created at:', character.position.toArray());
 
+    // 건물 추가
+const building = createBuilding();
+if (building) scene.add(building);
+
+    // 조명
+    const light = new THREE.DirectionalLight(0xffffff, 1);
+    light.position.set(5, 10, 7.5);
+    scene.add(light);
+
+    const ambient = new THREE.AmbientLight(0xffffff, 0.3);
+    scene.add(ambient);
     let animationFrameId: number;
 
     const animate = () => {
       animationFrameId = requestAnimationFrame(animate);
+
+      const pressedKeys = getPressedKeys().pressedKeys;
+
       if (characterRef.current) {
         handleMovement(
           characterRef.current,
           pressedKeys,
           defaultSpeed,
-          () => true, // canMoveTo 함수는 현재 모든 위치 허용
+          () => true,
           {
             minX: -gridSize / 2,
             maxX: gridSize / 2,
@@ -51,10 +67,14 @@ export function ThreeCanvas() {
             maxZ: gridSize / 2
           }
         );
+
+        const char = characterRef.current;
+        camera.position.set(char.position.x, char.position.y + 10, char.position.z + 15);
+        camera.lookAt(char.position);
       }
+
       renderer.render(scene, camera);
     };
-
     animate();
 
     return () => {
@@ -62,7 +82,9 @@ export function ThreeCanvas() {
       mount.removeChild(renderer.domElement);
       renderer.dispose();
     };
+    
   }, []);
 
   return <div ref={mountRef} style={{ width: '100vw', height: '100vh' }} />;
+
 }
