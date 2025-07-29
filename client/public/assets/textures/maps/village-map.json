@@ -62,8 +62,8 @@
     "image": "/assets/textures/maps/tileset.png",
     "imagewidth": 256,
     "imageheight": 256,
-    "tilewidth": 16,
-    "tileheight": 16,
+    "tilewidth": 32,
+    "tileheight": 32,
     "columns": 16,
     "tilecount": 256
   }

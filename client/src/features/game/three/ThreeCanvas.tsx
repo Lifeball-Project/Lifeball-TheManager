@@ -3,13 +3,15 @@
 import { use, useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { setupThreeScene } from './setupScene'; // 경로를 실제 위치에 맞게 조정
-import { createTileGrid } from '../maps/helpers/createTiles';
+import { createTileGridFromJson } from '../maps/helpers/createTiles';
 import { createCharacter } from '../characters/createCharacter';
 import { handleMovement } from '../characters/handleMovement';
 import { useKeyboardStore } from '@/store/useKeyboardStore';
 import { defaultSpeed } from '../characters/defaultSpeed';
 import { useKeyboardInput } from '../hooks/useKeyboardInput';
 import { createBuilding } from '../buildings/helpers/createBuilding';
+import { registerBuilding } from '../characters/canMoveTo';
+import { canMoveTo } from '../characters/canMoveTo';
 
 export function ThreeCanvas() {
   const mountRef = useRef<HTMLDivElement>(null);
@@ -21,14 +23,23 @@ export function ThreeCanvas() {
     const mount = mountRef.current!;
     const center = new THREE.Vector3(0, 0, 0);
     const { scene, camera, renderer } = setupThreeScene(mount, center);
+    scene.background = new THREE.Color(0xa0d0f0); // 하늘색 배경 설정
 
     // 바닥 타일 격자 생성 (예: 10x10)
     const tileSize = 1;
     const gridSize = 20;
-    const tileMaterial = new THREE.MeshBasicMaterial({ color: 0xA0522D }); // 진한 갈색
 
-    const tiles = createTileGrid(tileSize, gridSize / 2, tileMaterial);
-    tiles.forEach(tile => scene.add(tile));
+    const initTiles = async () => {
+      const tiles = await createTileGridFromJson(
+        '/assets/textures/maps/village-map.json',
+        '/assets/textures/maps/tileset.png',
+        tileSize
+      );
+      tiles.forEach(tile => scene.add(tile));
+    };
+    initTiles();
+    
+
 
     // 플레이어 캐릭터 생성
     const character = createCharacter();
@@ -37,8 +48,9 @@ export function ThreeCanvas() {
     console.log('[createCharacter] created at:', character.position.toArray());
 
     // 건물 추가
-const building = createBuilding();
-if (building) scene.add(building);
+    const building = createBuilding();
+    if (building) scene.add(building);
+    registerBuilding(building);
 
     // 조명
     const light = new THREE.DirectionalLight(0xffffff, 1);
@@ -59,7 +71,8 @@ if (building) scene.add(building);
           characterRef.current,
           pressedKeys,
           defaultSpeed,
-          () => true,
+          // 이동 범위 제한 및 건물 충돌 제한
+          canMoveTo,
           {
             minX: -gridSize / 2,
             maxX: gridSize / 2,
