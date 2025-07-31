@@ -1,0 +1,3861 @@
+{
+    "tiles": [
+        {
+            "x": -16,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31" 
+        },
+        {
+            "x": -15,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": -10,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_1"
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": 2,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": 3,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -16,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -15,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -14,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -13,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -12,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -11,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -8,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -7,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 10,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 11,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 12,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 13,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 14,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 15,
+            "y": 9,
+            "tileName": "Serene_Village_16x16_31"
+        },
+        {
+            "x": 8,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_205"
+        },
+        {
+            "x": 9,
+            "y": -9,
+            "tileName": "Serene_Village_16x16_206"
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_187"
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "tileName": "Serene_Village_16x16_188"
+        },
+        {
+            "x": -14,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_203"
+        },
+        {
+            "x": -13,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_204"
+        },
+        {
+            "x": 8,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_172"
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_173"
+        },
+        {
+            "x": -14,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_185"
+        },
+        {
+            "x": -13,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_186"
+        },
+        {
+            "x": -14,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_170"
+        },
+        {
+            "x": -13,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_171"
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_502"
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_503"
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_209"
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_210"
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_191"
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_192"
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_176"
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_177"
+        },
+        {
+            "x": -11,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_200"
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_217"
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_218"
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_217"
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_218"
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_219"
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_199"
+        },
+        {
+            "x": -13,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_207"
+        },
+        {
+            "x": -12,
+            "y": 4,
+            "tileName": "Serene_Village_16x16_208"
+        },
+        {
+            "x": -13,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_189"
+        },
+        {
+            "x": -12,
+            "y": 5,
+            "tileName": "Serene_Village_16x16_190"
+        },
+        {
+            "x": -13,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_174"
+        },
+        {
+            "x": -12,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_175"
+        },
+        {
+            "x": -10,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_203"
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_204"
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_205"
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_206"
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_211"
+        },
+        {
+            "x": 9,
+            "y": 6,
+            "tileName": "Serene_Village_16x16_212"
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_185"
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_186"
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_187"
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_188"
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_193"
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "tileName": "Serene_Village_16x16_194"
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_170"
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_171"
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_172"
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "tileName": "Serene_Village_16x16_173"
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_455"
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_456"
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_457"
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_458"
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_459"
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_437"
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_438"
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_439"
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_440"
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_441"
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_418"
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_419"
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_420"
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_421"
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_422"
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_399"
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_400"
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_401"
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_402"
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_403"
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_27"
+        },
+        {
+            "x": -8,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_17"
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_17"
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_17"
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_17"
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_17"
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_17"
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_17"
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_17"
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_18"
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "tileName": "Serene_Village_16x16_13"
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "tileName": "Serene_Village_16x16_30"
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_47"
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_48"
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_48"
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_48"
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_48"
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_49"
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_50"
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "tileName": "Serene_Village_16x16_30"
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": -8,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_30"
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "tileName": "Serene_Village_16x16_30"
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_30"
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "tileName": "Serene_Village_16x16_30"
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_30"
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "tileName": "Serene_Village_16x16_30"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "tileName": "Serene_Village_16x16_30"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "tileName": "Serene_Village_16x16_30"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_33"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_34"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "tileName": "Serene_Village_16x16_31"
+        }
+    ],
+    "tilesets": [
+    {
+      "firstgid": 1,
+      "columns": 16,
+      "image": "/assets/textures/maps/Serene_Village_16x16.png",
+      "imagewidth": 304,
+      "imageheight": 720,
+      "tilecount": 855,
+      "tilewidth": 16,
+      "tileheight": 16
+    }
+  ]
+}
