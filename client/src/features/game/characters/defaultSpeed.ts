@@ -1,1 +1,1 @@
-export const defaultSpeed = 0.05;
+export const defaultSpeed = 0.1;
