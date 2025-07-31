@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { registerBuilding } from './buildingState';
 
 export function createBuildings(): THREE.Group {
   const group = new THREE.Group();
@@ -34,7 +35,6 @@ export function createBuildings(): THREE.Group {
   });
 
   group.add(house);
-
   // ----------------------- 야구장 -----------------------
   const tileColsStadium = 10;
   const tileRowsStadium = 4;
@@ -49,7 +49,6 @@ export function createBuildings(): THREE.Group {
 
 
   group.add(stadium);
-
 
 
   // ----------------------- 나무1 -----------------------
@@ -107,6 +106,7 @@ export function createBuildings(): THREE.Group {
   //   materialTree2.needsUpdate = true;
   // });
   // group.add(tree2);
+ 
 
   return group;
 }

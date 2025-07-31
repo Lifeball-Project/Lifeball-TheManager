@@ -1,7 +1,6 @@
 import * as THREE from 'three';
 import { createBuildings } from './createBuildings';
-import { registerBuilding } from '../../characters/canMoveTo';
-
+import { registerBuilding } from './buildingState';
 /**
  * 건물을 생성하고 scene에 추가하고, 충돌 등록도 수행합니다.
  */
