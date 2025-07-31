@@ -12,6 +12,7 @@ export function createBuildings(): THREE.Group {
   const geometryHouse = new THREE.PlaneGeometry(tileColsHouse, tileRowsHouse);
   const materialHouse = new THREE.MeshStandardMaterial({ transparent: true });
   const house = new THREE.Mesh(geometryHouse, materialHouse);
+  house.name = 'house'; // 이름 설정
 
   house.position.set(-7, 1.5, -8);
   house.rotation.x = -Math.PI / 6;
@@ -41,6 +42,8 @@ export function createBuildings(): THREE.Group {
   const geometryStadium = new THREE.PlaneGeometry(tileColsStadium, tileRowsStadium);
   const materialStadium = new THREE.MeshStandardMaterial({ transparent: true });
   const stadium = new THREE.Mesh(geometryStadium, materialStadium);
+  stadium.name = 'stadium'; // 이름 설정
+
   stadium.position.set(6, 1.5, -8);
   stadium.rotation.x = -Math.PI / 6;
 

@@ -22,7 +22,6 @@ export const handleMovement: HandleMovementFn = (
     if (direction === 'right') newX = Math.min(nextX + speed, mapBoundary.maxX);
   }
   if (canMoveTo(newX, newZ)) {
-    playerRef.position.x = newX;
-    playerRef.position.z = newZ;
+    playerRef.position.set(newX, playerRef.position.y, newZ);
   }
 }

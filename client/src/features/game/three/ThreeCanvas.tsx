@@ -14,10 +14,10 @@ import { initCharacter } from '../characters/initCharacter';
 import { useCharacterStore } from '@/store/useCharacterStore';
 import { initTiles } from '../maps/helpers/initTiles';
 
-
 export function ThreeCanvas() {
   const mountRef = useRef<HTMLDivElement>(null);
   const getPressedKeys = useKeyboardStore.getState;
+
   useKeyboardInput();
   
   useEffect(() => {
@@ -31,8 +31,7 @@ export function ThreeCanvas() {
     initTiles(scene); 
     
     // 건물 생성 및 충돌 등록
-    initBuildings(scene);
-    
+    initBuildings(scene); // 충돌용 박스 배열 받아오기    
     // 조명 초기화
     initLighting(scene);
 
@@ -52,8 +51,14 @@ export function ThreeCanvas() {
           character,
           pressedKeys,
           defaultSpeed,
-          // 이동 범위 제한 및 건물 충돌 제한
-          canMoveTo,
+          (nextX, nextZ) => {
+            const collisionId = canMoveTo(nextX, nextZ);
+            if (collisionId) {
+              console.warn(`건물(${collisionId})과 충돌`);
+              return false;
+            }
+            return true;
+          },
           {
             minX: -gridSize / 2,
             maxX: gridSize / 2,
@@ -61,7 +66,7 @@ export function ThreeCanvas() {
             maxZ: gridSize / 2
           }
         );
-
+  
         camera.position.set(character.position.x, character.position.y + 10, character.position.z + 15);
         camera.lookAt(character.position);
       }
