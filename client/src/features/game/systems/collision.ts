@@ -35,7 +35,6 @@ export function checkCollision(playerX: number, playerZ: number) {
 
     if (dx <= rangeX && dz <= rangeZ) {
       if (buildingId !== id) {
-        console.log(`🎯 충돌 감지 (위치 기반): ${id}`);
         setBuildingId(id);
       }
       return;
