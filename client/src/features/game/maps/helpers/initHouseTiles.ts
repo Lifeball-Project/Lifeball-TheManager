@@ -4,7 +4,7 @@ import { useMapStore } from '@/store/useMapStore';
 import { useCollisionStore } from '@/store/useCollosionStore';
 
 export function initHouseTiles(scene: THREE.Scene) {
-  const { exitMap } = useMapStore.getState();
+  const { currentMap,exitMap } = useMapStore.getState();
   const { buildingId } = useCollisionStore.getState();
 
   scene.background = new THREE.Color('black'); 
@@ -29,10 +29,11 @@ export function initHouseTiles(scene: THREE.Scene) {
   console.log('[exit listener] 현재 buildingId:', buildingId);
   
   
-  // Ensure exitMap exists in the Zustand store's interface definition before adding the event listener
   window.addEventListener('keydown', (e) => {
+          const id = useCollisionStore.getState().buildingId;
+
     if (e.code === 'Space') {
-      if (buildingId === 'exit') {
+      if ( currentMap === 'house' && id === 'exit') {
         console.log('🏠 [스페이스바] 건물 "exit"과 상호작용 → 기본 맵으로 돌아감');
         exitMap();
       }

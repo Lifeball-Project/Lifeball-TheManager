@@ -39,7 +39,7 @@ export function ThreeCanvas() {
       initTiles(scene);       // 필드 바닥
       initBuildings(scene);   // 건물
     } else if (currentMap === 'house') {
-      initHouseTiles(scene);  // 내부 맵 (이건 네가 따로 만든 함수로 대체 가능)
+      initHouseTiles(scene);  // 
     }
 
     initLighting(scene);
@@ -68,6 +68,8 @@ export function ThreeCanvas() {
 
         if (currentMap === 'default') {
           checkCollision(character.position.x, character.position.z);
+        } else if (currentMap === 'house') {
+          checkCollision(character.position.x, character.position.z);
         }
 
         camera.position.set(character.position.x, character.position.y + 10, character.position.z + 15);
@@ -80,11 +82,15 @@ export function ThreeCanvas() {
     animate();
 
     const handleSpaceKey = (e: KeyboardEvent) => {
+      const id = useCollisionStore.getState().buildingId;
+
       if (e.code === 'Space') {
-        const id = useCollisionStore.getState().buildingId;
-        if (id === 'house') {
+        console.log('🔍 currentMap:', currentMap);
+        console.log('🔍 buildingId:', id);
+
+        if (currentMap === 'default' && id === 'house') {
           console.log('🏠 집 내부 진입');
-          setMap('house'); // ✅ 맵 전환
+          setMap('house');
         }
       }
     };
