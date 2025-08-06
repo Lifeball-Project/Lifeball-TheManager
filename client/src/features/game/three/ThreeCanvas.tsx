@@ -17,6 +17,7 @@ import { useCollisionStore } from '@/store/useCollosionStore';
 import { checkCollision } from '../systems/collision';
 import { useMapStore } from '@/store/useMapStore';
 import { initHouseTiles } from '../maps/helpers/initHouseTiles';
+import { initStadiumTiles } from '../maps/helpers/initStadiumTiles';
 
 export function ThreeCanvas() {
   const mountRef = useRef<HTMLDivElement>(null);
@@ -39,7 +40,9 @@ export function ThreeCanvas() {
       initTiles(scene);       // 필드 바닥
       initBuildings(scene);   // 건물
     } else if (currentMap === 'house') {
-      initHouseTiles(scene);  // 
+      initHouseTiles(scene);  // 집
+    } else if (currentMap === 'stadium') {
+      initStadiumTiles(scene); // 야구장
     }
 
     initLighting(scene);
@@ -70,6 +73,8 @@ export function ThreeCanvas() {
           checkCollision(character.position.x, character.position.z);
         } else if (currentMap === 'house') {
           checkCollision(character.position.x, character.position.z);
+        } else if (currentMap === 'stadium') {
+          checkCollision(character.position.x, character.position.z);
         }
 
         camera.position.set(character.position.x, character.position.y + 10, character.position.z + 15);
@@ -91,6 +96,9 @@ export function ThreeCanvas() {
         if (currentMap === 'default' && id === 'house') {
           console.log('🏠 집 내부 진입');
           setMap('house');
+        } else if (currentMap === 'default' && id === 'stadium') {
+          console.log('🏟️ 야구장 내부 진입');
+          setMap('stadium');
         }
       }
     };
