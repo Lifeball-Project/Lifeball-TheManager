@@ -1,107 +1,64 @@
 'use client';
-
+// React /Three
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import { setupThreeScene } from './setupScene'; // 경로를 실제 위치에 맞게 조정
-import { handleMovement } from '../characters/handleMovement';
-import { useKeyboardStore } from '@/store/useKeyboardStore';
-import { defaultSpeed } from '../characters/defaultSpeed';
-import { useKeyboardInput } from '../hooks/useKeyBoardInput';
-import { canMoveTo } from '../characters/canMoveTo';
-import { initBuildings } from '../buildings/helpers/initBuildings';
+
+// Scene helpers
+import { setupThreeScene } from './setupScene'; 
 import { initLighting } from './initLighting';
-import { initCharacter } from '../characters/initCharacter';
-import { useCharacterStore } from '@/store/useCharacterStore';
-import { initTiles } from '../maps/helpers/initTiles';
+import { renderMapTiles } from '../maps/helpers/renderMapTiles';
+import { mapBackground } from '../maps/helpers/mapBackground';
+
+// Character
+import {
+  initCharacter,
+} from '../characters';
+
+// Systems
+import { handleSpaceKey } from './handleSpaceKey';
+import { startAnimationLoop } from './animateLoop';
+// Zustand stores
+import { useKeyboardStore } from '@/store/useKeyboardStore';
 import { useCollisionStore } from '@/store/useCollosionStore';
-import { checkCollision } from '../systems/collision';
 import { useMapStore } from '@/store/useMapStore';
-import { initHouseTiles } from '../maps/helpers/initHouseTiles';
-import { initStadiumTiles } from '../maps/helpers/initStadiumTiles';
+
+// hooks
+import { useKeyboardInput } from '../hooks/useKeyBoardInput';
 
 export function ThreeCanvas() {
   const mountRef = useRef<HTMLDivElement>(null);
   const getPressedKeys = useKeyboardStore.getState;
   const { buildingId } = useCollisionStore();
-  const { currentMap, setMap } = useMapStore(); // 👈 Zustand map 상태 사용
+  const { currentMap } = useMapStore(); 
 
+  // 키보드 입력 훅 사용
   useKeyboardInput();
 
   useEffect(() => {
     const mount = mountRef.current!;
     const center = new THREE.Vector3(0, 0, 0);
     const { scene, camera, renderer } = setupThreeScene(mount, center);
-    scene.background = new THREE.Color(0xa0d0f0);
-    
     const gridSize = 20;
-
+    
     // 맵 렌더링 분기
-    if (currentMap === 'default') {
-      initTiles(scene);       // 필드 바닥
-      initBuildings(scene);   // 건물
-    } else if (currentMap === 'house') {
-      initHouseTiles(scene);  // 집
-    } else if (currentMap === 'stadium') {
-      initStadiumTiles(scene); // 야구장
-    }
-
+    renderMapTiles(currentMap, scene);
+    // 맵 배경 설정
+    scene.background = mapBackground(currentMap); // 배경색 설정
+    // 건물 및 충돌 박스 초기화
     initLighting(scene);
+    // 캐릭터 초기화
     initCharacter(scene);
 
-    let animationFrameId: number;
-
-    const animate = () => {
-      animationFrameId = requestAnimationFrame(animate);
-
-      const pressedKeys = getPressedKeys().pressedKeys;
-      const character = useCharacterStore.getState().character;
-      if (character) {
-        handleMovement(
-          character,
-          pressedKeys,
-          defaultSpeed,
-          canMoveTo,
-          {
-            minX: -gridSize / 2,
-            maxX: gridSize / 2,
-            minZ: -gridSize / 2,
-            maxZ: gridSize / 2,
-          }
-        );
-
-        if (currentMap === 'default') {
-          checkCollision(character.position.x, character.position.z);
-        } else if (currentMap === 'house') {
-          checkCollision(character.position.x, character.position.z);
-        } else if (currentMap === 'stadium') {
-          checkCollision(character.position.x, character.position.z);
-        }
-
-        camera.position.set(character.position.x, character.position.y + 10, character.position.z + 15);
-        camera.lookAt(character.position);
-      }
-
-      renderer.render(scene, camera);
-    };
-
-    animate();
-
-    const handleSpaceKey = (e: KeyboardEvent) => {
-      const id = useCollisionStore.getState().buildingId;
-
-      if (e.code === 'Space') {
-        console.log('🔍 currentMap:', currentMap);
-        console.log('🔍 buildingId:', id);
-
-        if (currentMap === 'default' && id === 'house') {
-          console.log('🏠 집 내부 진입');
-          setMap('house');
-        } else if (currentMap === 'default' && id === 'stadium') {
-          console.log('🏟️ 야구장 내부 진입');
-          setMap('stadium');
-        }
-      }
-    };
+    // 애니메이션 루프 시작
+    const animationFrameId = startAnimationLoop({
+      scene,
+      camera,
+      renderer,
+      getPressedKeys,
+      gridSize,
+    });
+    
+    // 키보드 이벤트 리스너 등록
     window.addEventListener('keydown', handleSpaceKey);
 
     return () => {
@@ -110,7 +67,7 @@ export function ThreeCanvas() {
       renderer.dispose();
       window.removeEventListener('keydown', handleSpaceKey);
     };
-  }, [currentMap]); // 👈 맵 전환 감지
+  }, [currentMap]);
 
   return (
     <>
@@ -127,7 +84,7 @@ export function ThreeCanvas() {
         zIndex: 100,
       }}>
         {buildingId
-          ? `🏠 건물 ID: ${buildingId}`
+          ? `건물 ID: ${buildingId}`
           : '충돌한 건물 없음'}
       </div>
     </>

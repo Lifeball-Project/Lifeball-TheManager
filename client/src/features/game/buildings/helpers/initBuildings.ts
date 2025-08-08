@@ -1,21 +1,17 @@
 import * as THREE from 'three';
-import { createBuildings } from './createBuildings';
+import { createBuilding } from './createBuilding';
 import { registerBuilding } from './buildingState';
+import { buildingPresets } from './buildingPresets';
+
 /**
  * 건물을 생성하고 scene에 추가하고, 충돌 등록도 수행합니다.
  */
 export function initBuildings(scene: THREE.Scene): void {
-  const building = createBuildings();
+  buildingPresets.forEach((preset) => {
+    const mesh = createBuilding(preset);
+    scene.add(mesh);
+    registerBuilding(mesh);
+  });
 
-  if (building) {
-    scene.add(building);
-
-    building.children.forEach(child => {
-      if (child instanceof THREE.Mesh) {
-        registerBuilding(child); // 등록만 수행
-      }
-    });
-
-    console.log('[initBuildings] 건물 추가 및 등록 완료');
-  }
+  console.log('[initBuildings] 건물 추가 및 등록 완료');
 }

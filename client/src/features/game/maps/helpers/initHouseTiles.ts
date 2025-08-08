@@ -7,7 +7,6 @@ export function initHouseTiles(scene: THREE.Scene) {
   const { currentMap,exitMap } = useMapStore.getState();
   const { buildingId } = useCollisionStore.getState();
 
-  scene.background = new THREE.Color('black'); 
 
   // 나중에 바닥 추가
   // const plane = new THREE.Mesh(
@@ -34,7 +33,7 @@ export function initHouseTiles(scene: THREE.Scene) {
 
     if (e.code === 'Space') {
       if ( currentMap === 'house' && id === 'exit') {
-        console.log('🏠 [스페이스바] 건물 "exit"과 상호작용 → 기본 맵으로 돌아감');
+        console.log('스페이스바 건물 "exit"과 상호작용 → 기본 맵으로 돌아감');
         exitMap();
       }
     }
