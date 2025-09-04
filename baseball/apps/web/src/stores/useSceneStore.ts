@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { Scene } from '@/types/scene/scene.type';
+import type { Scene } from '@/types/scene/scene-types';
 
 interface SceneStore {
   currentScene: Scene;
