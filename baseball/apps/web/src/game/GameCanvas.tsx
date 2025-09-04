@@ -1,32 +1,25 @@
+import Phaser from 'phaser'
 import { useEffect, useRef } from 'react'
-import * as Phaser from 'phaser'
-import { MainScene } from './scenes/MainScene'
+import { createPhaserConfig } from './config/phaserConfig'
+import { OverworldScene } from './scenes/OverworldScene'
+import { InteriorScene } from './scenes/InteriorScene'
 
 export function GameCanvas() {
   const containerRef = useRef<HTMLDivElement>(null)
-  const gameRef = useRef<Phaser.Game | null>(null)
 
   useEffect(() => {
-    if (!containerRef.current || gameRef.current) return
+    if (!containerRef.current) return
 
-    const game = new Phaser.Game({
-      type: Phaser.AUTO,
-      parent: containerRef.current as HTMLElement,
-      backgroundColor: '#111827',
-      scene: [MainScene],
-      scale: {
-        mode: Phaser.Scale.RESIZE,
-        autoCenter: Phaser.Scale.CENTER_BOTH,
-      },
-    })
+    const game = new Phaser.Game(
+      createPhaserConfig({
+        parent: containerRef.current,
+        scenes: [OverworldScene, InteriorScene],   // 사용할 씬 전달
+        debug: false,
+      })
+    )
 
-    gameRef.current = game
-
-    return () => {
-      game.destroy(true)
-      gameRef.current = null
-    }
+    return () => game.destroy(true)
   }, [])
 
-  return <div ref={containerRef} className="w-screen h-screen bg-black" />
+  return <div ref={containerRef} className="w-screen h-screen" />
 }
