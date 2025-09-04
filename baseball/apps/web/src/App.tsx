@@ -1,5 +1,4 @@
-import { SceneRenderer } from "./app/SceneRenderer"
-
+import { GameCanvas } from "./game/GameCanvas"
 export default function App() {
-  return <SceneRenderer />
+  return <GameCanvas />
 }
