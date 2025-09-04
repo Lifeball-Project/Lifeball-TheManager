@@ -1,6 +1,6 @@
 import type { Player } from "@/types/player/player";
 import type { PlayerTag } from "@/types/player/tag/tag-types";
-import { playerTags } from "@/data/data/playerTags";
+import { playerTags } from "@/data/playerTags";
 import { positions } from "@/types/player/player-position";
 import { generatePlayerStats } from "./generatePlayerStats";
 

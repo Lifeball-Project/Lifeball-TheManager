@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useSetupStore } from "@/stores/useSetupStore";
-import { lore } from "@/data/data/gameLore";
+import { lore } from "@/data/gameLore";
 
 export function GameLoreStep() {
   // 스토어에서 다음 단계로 이동하는 함수 가져오기

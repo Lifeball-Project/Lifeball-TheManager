@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSetupStore } from "@/stores/useSetupStore";
-import { regions } from "@/data/data/regionData";
+import { regions } from "@/data/regionData";
 
 export function RegionSelectStep() {
   const setRegion = useSetupStore((state) => state.setRegion);

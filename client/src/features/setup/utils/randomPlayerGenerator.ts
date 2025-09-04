@@ -2,7 +2,7 @@ import { Player } from "@/types/player/player";
 import { Position } from "@/types/player/player-position";
 import { PlayerTag } from "@/types/tag/tag-types";
 import { generatePlayerStats} from "@/features/setup/utils/generatePlayerStats";
-import { playerTags } from "@/features/setup/data/playerTags";
+import { playerTags } from "../../../../../baseball/apps/web/src/data/playerTags";
 import { positions } from "@/types/player/player-position";
 
 // 태그를 0~2개 랜덤 샘플링
