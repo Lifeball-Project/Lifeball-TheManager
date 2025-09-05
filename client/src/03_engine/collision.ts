@@ -2,7 +2,7 @@
 import * as THREE from 'three';
 
 // 건물 충돌 상태를 저장하고 관리하는 Zustand 스토어
-import { useCollisionStore } from '06_store/useCollosionStore';
+import { useCollisionStore } from '06_store/useCollisionStore';
 
 // 건물 충돌 박스 정보를 저장하는 배열 (외부에서 registerBuilding을 통해 추가됨)
 export const buildingBoxes: BuildingCollision[] = [];

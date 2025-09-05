@@ -18,7 +18,7 @@ import { handleSpaceKey } from '../three/handleSpaceKey';
 import { startAnimationLoop } from '../three/animateLoop';
 // Zustand stores
 import { useKeyboardStore } from '06_store/useKeyboardStore';
-import { useCollisionStore } from '06_store/useCollosionStore';
+import { useCollisionStore } from '06_store/useCollisionStore';
 import { useMapStore } from '06_store/useMapStore';
 
 import { useKeyboardInput } from '03_engine/input/useKeyBoardInput';

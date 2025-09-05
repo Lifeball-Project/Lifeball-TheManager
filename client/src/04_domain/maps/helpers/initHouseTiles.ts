@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { registerBuilding } from '04_domain/buildings/buildingState';
 import { useMapStore } from '06_store/useMapStore';
-import { useCollisionStore } from '06_store/useCollosionStore';
+import { useCollisionStore } from '06_store/useCollisionStore';
 
 export function initHouseTiles(scene: THREE.Scene) {
   const { currentMap,exitMap } = useMapStore.getState();

@@ -1,4 +1,4 @@
-import { useCollisionStore } from '06_store/useCollosionStore';
+import { useCollisionStore } from '06_store/useCollisionStore';
 import { useMapStore } from '06_store/useMapStore';
 
 export const handleSpaceKey = (e: KeyboardEvent) => {
