@@ -4,26 +4,26 @@ import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
 // Scene helpers
-import { setupThreeScene } from './setupScene'; 
-import { initLighting } from './initLighting';
-import { renderMapTiles } from '../maps/helpers/renderMapTiles';
-import { mapBackground } from '../maps/helpers/mapBackground';
+import { setupThreeScene } from './three/setupScene'; 
+import { initLighting } from './three/initLighting';
+import { renderMapTiles } from '../features/game/maps/helpers/renderMapTiles';
+import { mapBackground } from '../features/game/maps/helpers/mapBackground';
 
 // Character
 import {
   initCharacter,
-} from '../characters';
+} from '../features/game/characters';
 
 // Systems
-import { handleSpaceKey } from './handleSpaceKey';
-import { startAnimationLoop } from './animateLoop';
+import { handleSpaceKey } from './three/handleSpaceKey';
+import { startAnimationLoop } from './three/animateLoop';
 // Zustand stores
 import { useKeyboardStore } from '@/store/useKeyboardStore';
 import { useCollisionStore } from '@/store/useCollosionStore';
 import { useMapStore } from '@/store/useMapStore';
 
 // hooks
-import { useKeyboardInput } from '../hooks/useKeyBoardInput';
+import { useKeyboardInput } from '../features/game/hooks/useKeyBoardInput';
 
 export function ThreeCanvas() {
   const mountRef = useRef<HTMLDivElement>(null);

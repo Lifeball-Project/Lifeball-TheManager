@@ -1,7 +1,7 @@
 'use client';
 
 // import { SceneRenderer } from '@/components/SceneRenderer'
-import { ThreeCanvas } from "@/features/game/three/ThreeCanvas";
+import { ThreeCanvas } from "@/engine/ThreeCanvas";
 
 export default function RootPage() {
   // return <SceneRenderer />;

@@ -1,5 +1,5 @@
 import { BackgroundWrapper } from '@/components/BackgroundWrapper.tsx';
-import { SetupStepManager } from '@/features/setup/components/StepManager';
+import { SetupStepManager } from '@/scenes/setup/components/StepManager';
 
 export function SetupScene() {
   return (

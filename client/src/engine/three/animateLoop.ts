@@ -9,7 +9,7 @@ import {
 } from '../characters';
 
 import { mapConfig } from '../maps/helpers/mapConfig';
-import { checkCollision } from '../systems/collision';
+import { checkCollision } from '../collision';
 
 let currentAnimationId: number | null = null;
 

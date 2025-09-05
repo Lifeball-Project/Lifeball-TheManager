@@ -4,8 +4,8 @@ import { useState } from "react";
 import { useTeamStore } from "@/store/useTeamStore";
 import { useSceneStore } from "@/store/useSceneStore";
 import { getRandomPlayerSelection } from "@/features/setup/utils/randomPlayerGenerator";
-import { PlayerCard } from "@/features/setup/components/common/PlayerCard";
-import { BottomButtonGroup } from "@/features/setup/components/common/BottomButtonGroups";
+import { PlayerCard } from "@/scenes/setup/components/common/PlayerCard";
+import { BottomButtonGroup } from "@/scenes/setup/components/common/BottomButtonGroups";
 
 
 export function TeamSetupStep() {

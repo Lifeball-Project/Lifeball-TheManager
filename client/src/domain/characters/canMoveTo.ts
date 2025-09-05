@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { buildingBoxes } from '../systems/collision';
+import { buildingBoxes } from '../../../engine/collision';
 
 export function canMoveTo(nextX: number, nextZ: number): boolean {
   const playerSize = new THREE.Vector3(0.3, 0.8, 0.3);

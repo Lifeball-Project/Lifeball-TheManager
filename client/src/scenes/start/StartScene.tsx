@@ -1,5 +1,5 @@
 import { BackgroundWrapper } from "@/components/BackgroundWrapper.tsx"; 
-import { StartContainer } from "@/features/start/components/StartContainer";
+import { StartContainer } from "@/scenes/start/components/StartContainer";
 
 export function StartScene() {
   return (

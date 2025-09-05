@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { buildingBoxes } from '../../systems/collision';
+import { buildingBoxes } from '../../../../engine/collision';
 
 export function registerBuilding(mesh: THREE.Mesh) {
   console.log('[registerBuilding]', mesh.name);
